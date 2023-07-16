@@ -1,6 +1,7 @@
 package com.planegg.mygitkatse.ui.home
 
 import android.graphics.Color
+import android.graphics.ColorSpace
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -38,6 +39,9 @@ class HomeFragment : Fragment() {
             textView.setBackgroundColor(Color.BLUE)
             textView.text=textView.text.toString()+"12:56 Neljas"
             // Planegg Esimese harus tehtud
+            // aga siin nüüd teeb clint020 oma uuendusi 13:28
+            textView.setBackgroundColor(Color.RED)
+            // clint020 tegi 14.28 siia jälle midagi uut
         }
         return root
     }
