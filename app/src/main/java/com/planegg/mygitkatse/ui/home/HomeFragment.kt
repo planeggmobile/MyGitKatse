@@ -32,6 +32,7 @@ class HomeFragment : Fragment() {
         homeViewModel.text.observe(viewLifecycleOwner) {
             textView.text = "Planegg"
             textView.text= textView.text.toString()+"Mobile"
+            textView.text=textView.text.toString()+" Entertainments"
         }
         return root
     }
