@@ -42,6 +42,10 @@ class HomeFragment : Fragment() {
             // aga siin nüüd teeb clint020 oma uuendusi 13:28
             textView.setBackgroundColor(Color.RED)
             // clint020 tegi 14.28 siia jälle midagi uut
+            // planegg tegi midagi
+            //15.24 teeme backgroundi kollaseks kõigil
+            textView.setBackgroundColor(Color.YELLOW)
+            textView.text=textView.text.toString()+"16:15"
         }
         return root
     }
