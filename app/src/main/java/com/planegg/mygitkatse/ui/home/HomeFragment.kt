@@ -1,5 +1,6 @@
 package com.planegg.mygitkatse.ui.home
 
+import android.graphics.Color
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -33,6 +34,8 @@ class HomeFragment : Fragment() {
             textView.text = "Planegg"
             textView.text= textView.text.toString()+"Mobile"
             textView.text=textView.text.toString()+" Entertainments OÜ"
+            textView.setTextColor(Color.MAGENTA)
+            textView.setBackgroundColor(Color.BLUE)
         }
         return root
     }
