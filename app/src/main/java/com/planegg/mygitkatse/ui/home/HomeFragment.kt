@@ -36,6 +36,7 @@ class HomeFragment : Fragment() {
             textView.text=textView.text.toString()+" Entertainments OÜ"
             textView.setTextColor(Color.MAGENTA)
             textView.setBackgroundColor(Color.BLUE)
+            textView.text=textView.text.toString()+"10:55"
         }
         return root
     }
