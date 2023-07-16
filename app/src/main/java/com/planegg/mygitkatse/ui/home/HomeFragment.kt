@@ -41,6 +41,7 @@ class HomeFragment : Fragment() {
             // Planegg Esimese harus tehtud
             // aga siin nüüd teeb clint020 oma uuendusi 13:28
             textView.setBackgroundColor(Color.RED)
+            // clint020 tegi 14.28 siia jälle midagi uut
         }
         return root
     }
